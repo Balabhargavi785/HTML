@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Form</title>
+    <style>
+        body{
+             display: flex;
+            justify-content: center;
+            background-color: blanchedalmond;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+        <legend>Product Order Form</legend>
+        <p>Please make sure to fill in the required field and submit this form to complete your order.</p>
+                <img src="./apfrc_512.webp" alt="" height="200px" width="200px"><br>
+                <p><b><i>Shoes</i></b></p>
+                <label for="price" id="price"><b>RS.3000</b></label>
+                <label for="Quantity">Quantity </label>
+                <select name="Quantity" id="Quantity" 
+                <optgroup label=""> <br>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </optgroup> <br>
+            </select>
+            <label for="Shoe size">Shoe size </label>
+            <select name="Shoe size" id=""
+            <optgroup label="">
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option><br> <br>
+            </optgroup>
+        </select><br> <br>
+        <label for="">First Name</label>
+        <input type="text"> <br> <br>
+        <label for="">Last Name</label>
+        <input type="text"> <br> <br>
+        <label for="">Email</label>
+        <input type="email"> <br> <br>
+        <label for="">Contact</label>
+        <input type="tel"> <br> <br>
+        <label for="">Address</label>
+        <textarea name="Address" id=""></textarea> <br> <br>
+        <label for="">Payment Method</label>
+        <input type="radio" name="Payment Method" value="Phonepay"/>Phonepay 
+        <input type="radio" name="Payment Method" value="GPay"/>Gpay
+        <input type="radio" name="Payment Method" value="Credit Card"/>Credit Card
+        <input type="radio" name="CashOnDelivery" value="CashOnDelivery"/>CashOnDelivery <br> <br>
+        <label for="">Instructions</label>
+        <textarea name="Feedback" id=""></textarea><br> <br>
+        <input type="button" value="Submit">
+    </fieldset>
+    </form>
+</body>
+</html>

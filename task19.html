@@ -1,0 +1,80 @@
+<html>
+<head>
+    <title>Box Model Properties Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            width: 40%;
+            margin: 10px auto;
+            padding: 10px;
+            background-color: white;
+            border: 2px solid #4CAF50;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .box {
+            margin: 10px 0;
+            padding: 10px;
+            border: 2px solid #4CAF50;
+            background-color: #e0e0e0;
+            box-sizing: border-box; /* Include padding and border in the element's total width and height */
+        }
+        .box:nth-child(even) {
+            background-color: #d0f0c0; /* Light green for even boxes */
+        }
+        .box h2 {
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        .box p {
+            margin: 0;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Box Model Properties Example</h1>
+</header>
+<div class="container">
+    <div class="box">
+        <h2>Box 1</h2>
+        <p>This is the content inside Box 1. Notice how the padding, border, and margin properties affect its layout.</p>
+    </div>
+    <div class="box">
+        <h2>Box 2</h2>
+        <p>This is the content inside Box 2. The even boxes have a different background color.</p>
+    </div>
+    <div class="box">
+        <h2>Box 3</h2>
+        <p>This is the content inside Box 3. Observe the spacing between the boxes.</p>
+    </div>
+    <div class="box">
+        <h2>Box 4</h2>
+        <p>This is the content inside Box 4. The box model properties are applied consistently across all boxes.</p>
+    </div>
+</div>
+
+<footer>
+    <p>© 2024 Box Model Properties Example</p>
+</footer>
+
+</body>
+</html>

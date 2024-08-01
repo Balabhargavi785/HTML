@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(247, 225, 166);
+}
+h1{
+    color: rgb(128, 128, 128);
+    background-color: hsl(0, 90%, 38%);
+    font-size: 3em;
+}
+table{
+    background-color: hsl(10, 50%, 60%);
+    color: hsl(0, 11%, 96%);
+}

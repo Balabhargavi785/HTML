@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(219, 250, 250);
+}
+.hi{
+    color: rgb(128, 128, 128);
+    background-color: hsl(0, 90%, 38%);
+    font-size: 3em;
+}
+#a{
+    font-family: cursive;
+}
+#b{
+    font-style: italic;
+}
+#c{
+    font-weight: 3em;
+}
+#d{
+    font-variant: small-caps;
+}
+#e{
+    font-size: xx-large;
+}
+#f{
+    font-stretch: extra-expanded;
+}
+#g{
+    font-kerning: inherit;
+}
